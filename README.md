@@ -22,15 +22,15 @@ Repo for the code for takmil backend test
 
 - ## POST request
   - Open python code in the client directory and execute it. You may use any IDE of your choice. IDLE was used for this demonstration.
-    - ###Output
+    - ### Output
     ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/be54f6d0-ce4c-4538-8759-66f4685fc46f)
-    - ###MongoDB
+    - ### MongoDB
       - ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/84a88d16-e884-4944-b92d-866de30f4a05)
       - ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/285847da-fb2b-4c64-84ae-7dcc3c59f2cf)
       - ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/90dacff4-b518-4dbf-a51c-a03f27e70cbf)
 - ## PUT request
   - In Postman add the provided JSON in the request body and alter any field except 'name', 'address' and 'organization' e.g set both 'hasProjector' and 'hasLaptop' to 'true'
-    -![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/5ae0bd94-f405-4be6-bff3-d375265b135e)
+    - ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/5ae0bd94-f405-4be6-bff3-d375265b135e)
     - ### Output
       - ![image](https://github.com/MuhammadAli68/Takmil/assets/57432644/92daab6a-a4b0-4d9d-a4a5-45934e65b76b)
 - ## GET request by ID
