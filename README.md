@@ -1,7 +1,7 @@
 # Takmil
 Repo for the code for takmil backend test
 
-# Important Assumption
+# Important Assumptions
 - Since in the test, It was explicitly mentioned that Nest js is not required, therefore the server code has been built using Express js.
 - Python client was only required to perform POST call therefore the remaining APIs have been demonstrated using Postman.
 - The file including mongoDB URI has not been included in the github repo.

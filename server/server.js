@@ -48,7 +48,7 @@ app.post("/school",async (req,res)=>{
             {
                 await Organization.create(organization);
             }
-            school = await School.create({name,status,startTime,endTime,shift,address:new_address._id,hasProjector,hasLaptop,organization:new_organization._id});
+            school = await School.create({name,status,startTime,endTime,shift,address:new_address.id,hasProjector,hasLaptop,organization:new_organization.id});
             res.status(201).send("school created" + JSON.stringify(school));
         }
     }
